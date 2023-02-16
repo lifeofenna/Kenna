@@ -1,0 +1,92 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   color: aquamarine;
+}
+
+li{
+    float: left;
+}
+
+li,a{
+    padding: 20px;
+    color: purple;
+    margin: 15px;
+    background-color: darkgray;
+}
+
+li,a:hover{
+    background-color: darkseagreen;
+}
+
+th,td{
+    border: 2px dotted red;
+    padding: 5px;
+    margin: 2px;
+    color: purple;
+}
+
+
+
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: cyan;
+}
+
+.fruits{
+    border: 2px solid lightgreen;
+    background: midnightblue;
+    color: cyan;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cars{
+    border: 2px dotted orangered;
+    background: darkgray;
+    color: rgba(232, 26, 34, 0.98);
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+label{
+    background: rosybrown;
+    text-align: justify-all;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+    font-size: medium;
+    font-family: inherit;
+
+
+
+}
+input{
+    background: coral;
+    text-align: justify-all;
+    color: darkblue;
+    margin: 20px;
+    padding: 8px;
+    font-size: medium;
+    font-family: "DejaVu Serif";
+
+}
+
+form{
+    background-color: lightskyblue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+select{
+    color: rebeccapurple;
+    background-color: black;
+}
